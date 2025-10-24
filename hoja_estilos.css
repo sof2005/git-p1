@@ -1,0 +1,53 @@
+.titulo1 {
+
+    color :burlywood;
+    font-size: 40px;
+    background-color: cadetblue;
+    text-align: center;
+}
+.titulo2{
+
+    color :blue;
+    font-size: 30px;
+    background-color: coral;
+    text-align: center;
+}
+
+
+/* este ejercicio el 2 lo que explica es que en clases combinadas se aplica siempre el ultimo color , en este caso el azul , en html no importa el orden */
+
+.verde {
+    color: green;
+}  
+.rojo {
+    color: red;
+}
+.azul {
+    color: blue;
+}
+
+
+/* este ejercicio en lo que explica es que creando un id unico en este caso destacado solo se aplican las propiedades a "destacado" */
+
+#destacado {
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/* podemos agrupar los selectores como vemos aqui h1,h2,p y aplicarle las mismas propiedades */
+
+h1, h2, p { 
+    color: darkblue; 
+    font-family: Arial; }
+
+
+
+/* en este ejercicio lo que explica es que dentro de div ul li pueden ser el hijo, el nieto etc... pero afecta de cualquier manera cumpliendo esas reglas */
+
+div ul li { color: green; }
+
+/* en este ejercicio solo afectaria a los ul que esten dentro de un div */
+
+div > ul { background-color: lightgrey; }
+
